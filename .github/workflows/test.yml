@@ -7,9 +7,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: cachix/install-nix-action@v22
+    - uses: nixbuild/nix-quick-install-action@v26 #https://github.com/nixbuild/nix-quick-install-action
+    - name: Restore and cache Nix store
+      uses: nix-community/cache-nix-action@v3 #https://github.com/nix-community/cache-nix-action
       with:
-        github_access_token: ${{ secrets.GITHUB_TOKEN }}
+        key: cache-${{ matrix.os }}-${{ hashFiles('**/*.nix') }}
+        restore-keys: |
+          cache-${{ matrix.os }}-
+
+        gc-linux: true
+        gc-max-store-size-linux: 1000000000
+        
+        purge-caches: true
+        purge-key: cache-${{ matrix.os }}-
+        purge-created: true
+        purge-created-max-age: 42
+    - run: nix build --version
+    # - uses: cachix/install-nix-action@v22
+    #   with:
+    #     github_access_token: ${{ secrets.GITHUB_TOKEN }}
     # - run: nix build
     - run: nix flake check
     - run: nix develop --command bun install
