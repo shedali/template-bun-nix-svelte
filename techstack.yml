@@ -1,7 +1,8 @@
 repo_name: shedali/template-bun-nix-svelte
 report_id: 90982b5781793370a43d4cecda90972f
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T22:48:26+00:00'
+timestamp: '2024-01-04T15:16:36+00:00'
 requested_by: shedali
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte
   detection_source: Repo Metadata
 - name: Svelte
   description: A UI framework that compiles into tiny standalone JavaScript modules
@@ -36,6 +39,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/6113/7exmJEg4_400x400.png
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte/blob/main/package.json
   detection_source: package.json
   last_updated_by: Franz
   last_updated_on: 2023-10-28 23:25:52.000000000 Z
@@ -48,6 +52,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte/blob/main/package.json
   detection_source: package.json
   last_updated_by: Franz
   last_updated_on: 2023-10-28 23:25:52.000000000 Z
@@ -59,6 +64,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -68,6 +74,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte/blob/main/.github/workflows/test.yml
   detection_source: ".github/workflows/test.yml"
   last_updated_by: Franz
   last_updated_on: 2023-10-28 23:47:51.000000000 Z
@@ -80,6 +87,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte
   detection_source: Repo Metadata
 - name: Prettier
   description: 'Prettier is an opinionated code formatter. '
@@ -91,7 +99,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package.json
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte/blob/main/package.json
   detection_source: package.json
   last_updated_by: Franz
   last_updated_on: 2023-10-28 23:25:52.000000000 Z
@@ -103,6 +111,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte/blob/main/package.json
   detection_source: package.json
   last_updated_by: Franz
   last_updated_on: 2023-10-28 23:25:52.000000000 Z
@@ -116,7 +125,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte/blob/main/package.json
   detection_source: package.json
   last_updated_by: Franz
   last_updated_on: 2023-10-28 23:25:52.000000000 Z
@@ -130,7 +139,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte/blob/main/package.json
   detection_source: package.json
   last_updated_by: Franz
   last_updated_on: 2023-10-28 23:25:52.000000000 Z
@@ -144,7 +153,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte/blob/main/package.json
   detection_source: package.json
   last_updated_by: Franz
   last_updated_on: 2023-10-28 23:25:52.000000000 Z
@@ -158,7 +167,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/shedali/template-bun-nix-svelte/blob/main/package.json
   detection_source: package.json
   last_updated_by: Franz
   last_updated_on: 2023-10-28 23:25:52.000000000 Z
