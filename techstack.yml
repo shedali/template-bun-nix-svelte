@@ -2,7 +2,7 @@ repo_name: shedali/template-bun-nix-svelte
 report_id: 90982b5781793370a43d4cecda90972f
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:05:41+00:00'
+timestamp: '2024-02-29T18:24:08+00:00'
 requested_by: shedali
 provider: github
 branch: main
@@ -79,7 +79,7 @@ tools:
   last_updated_by: Franz
   last_updated_on: 2023-10-28 23:47:51.000000000 Z
 - name: Nix
-  description: 'A package manager for Linux and other Unix systems '
+  description: A package manager for Linux and other Unix systems
   website_url: http://nixos.org/nix
   license: LGPL-2.1
   open_source: true
@@ -90,7 +90,7 @@ tools:
   detection_source_url: https://github.com/shedali/template-bun-nix-svelte
   detection_source: Repo Metadata
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.8.0
   license: MIT
